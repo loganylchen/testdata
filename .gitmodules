@@ -1,0 +1,3 @@
+[submodule "ecoli"]
+	path = ecoli
+	url = git@github.com:loganylchen/testdata-ecoli-rRNA.git
