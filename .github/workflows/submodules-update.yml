@@ -24,5 +24,5 @@ jobs:
         run: |
           git config --global user.name "Auto"
           git config --global user.email "test@github.com"
-          git commit -am "Update submodules"
-          git push
+          if [ -n "$(git status -uno -s)" ]; then git commit -am "Update submodules";git push; fi
+          
