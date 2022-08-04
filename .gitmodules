@@ -3,4 +3,4 @@
 	url = https://github.com/loganylchen/testdata-ecoli-rRNA.git
 [submodule "yeast"]
 	path = yeast
-	url = https://github.com/loganylchen/testdata-ecoli-rRNA.git
+	url = https://github.com/loganylchen/testdata-yeast-rRNA.git
