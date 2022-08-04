@@ -24,7 +24,7 @@ jobs:
 
       - name: Commit & push changes
         run: |
-          git config --global user.name "Auto"
-          git config --global user.email "test@github.com"
+          git config --global user.name "Logan"
+          git config --global user.email "yuelong.chen.btr@gmail.com"
           if [ -n "$(git status -uno -s)" ]; then git commit -am "Update submodules";git push; fi
           
